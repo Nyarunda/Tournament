@@ -1,6 +1,6 @@
 ﻿namespace TrackerUI
 {
-    partial class TorunamentDashboardForm
+    partial class TournamentDashboardForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TorunamentDashboardForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TournamentDashboardForm));
             this.TournamntDahsboardLabel = new System.Windows.Forms.Label();
             this.loanExisitingTournamentDropdown = new System.Windows.Forms.ComboBox();
             this.loadExistingTournamentLabel = new System.Windows.Forms.Label();
@@ -52,9 +52,9 @@
             this.loanExisitingTournamentDropdown.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loanExisitingTournamentDropdown.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
             this.loanExisitingTournamentDropdown.FormattingEnabled = true;
-            this.loanExisitingTournamentDropdown.Location = new System.Drawing.Point(141, 100);
+            this.loanExisitingTournamentDropdown.Location = new System.Drawing.Point(146, 100);
             this.loanExisitingTournamentDropdown.Name = "loanExisitingTournamentDropdown";
-            this.loanExisitingTournamentDropdown.Size = new System.Drawing.Size(311, 45);
+            this.loanExisitingTournamentDropdown.Size = new System.Drawing.Size(300, 45);
             this.loanExisitingTournamentDropdown.TabIndex = 35;
             // 
             // loadExistingTournamentLabel
@@ -91,7 +91,7 @@
             this.loadTournamentButton.Text = "Load Tournament";
             this.loadTournamentButton.UseVisualStyleBackColor = true;
             // 
-            // TorunamentDashboardForm
+            // TournamentDashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -105,7 +105,7 @@
             this.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
-            this.Name = "TorunamentDashboardForm";
+            this.Name = "TournamentDashboardForm";
             this.Text = "TorunamentDashboardForm";
             this.Load += new System.EventHandler(this.TorunamentDashboardForm_Load);
             this.ResumeLayout(false);
