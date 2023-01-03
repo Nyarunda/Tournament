@@ -8,6 +8,10 @@ namespace TrackerLibrary
 {
     public class PrizeModel
     {
+        /// <summary>
+        /// Unique identier for the model
+        /// </summary>
+        public int Id { get; set; }
         public int PlaceNo { get; set; }
         public string PlaceName { get; set; }
         public decimal PrizeAmount { get; set; }

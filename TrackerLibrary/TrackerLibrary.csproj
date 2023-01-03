@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GlobalConfig.cs" />
-    <Compile Include="IDataConnection.cs" />
+    <Compile Include="DatabaseConnection\GlobalConfig.cs" />
+    <Compile Include="DatabaseConnection\IDataConnection.cs" />
+    <Compile Include="DatabaseConnection\SQLConnector.cs" />
+    <Compile Include="DatabaseConnection\TextConnector.cs" />
     <Compile Include="MatchupEntryModel.cs" />
     <Compile Include="MatchupModel.cs" />
     <Compile Include="PersonModel.cs" />
