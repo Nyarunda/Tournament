@@ -3,15 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TrackerLibrary.Models;
 
 namespace TrackerLibrary.DatabaseConnection
 {
-    public class TextConnector : IDataConnection
+    public enum DatabaseType
     {
-        public PrizeModel CreatePrize(PrizeModel model)
-        {
-           
-        }
+        Sql,
+        TextFile
     }
 }
